@@ -375,6 +375,24 @@ header.sticky{
     transition: transform 0.5s;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.portfolio-content .row img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .layer{
     width: 100%;
     height: 0%;
@@ -416,6 +434,20 @@ header.sticky{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+}
+
+.btn-saiba-mais {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-saiba-mais:hover {
+    background-color: #0056b3;
 }
 
 .row:hover img{
@@ -669,5 +701,24 @@ header.sticky{
     .link:hover{
         transition: .5s;
         color: #e4ab32;
+    }
+
+    .portfolio {
+        padding: 50px 0;
+    }
+
+    .main-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .main-text p {
+        font-size: 18px;
+        color: #555;
+    }
+
+    .main-text h2 {
+        font-size: 36px;
+        color: #333;
     }
 }
