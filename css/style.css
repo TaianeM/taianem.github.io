@@ -786,7 +786,7 @@ img {
     margin-bottom: 20px;
 }
 
-.project-info .btn-github {
+.project-info .btn-view {
     margin-top: auto; 
 }
 
@@ -794,7 +794,7 @@ img {
     margin-bottom: 25px; 
 }
 
-.btn-github {
+.btn-view {
     background-color: #4c8bf5;
     padding: 10px 20px;
     border-radius: 30px;
@@ -805,7 +805,7 @@ img {
     align-self: center; 
 }
 
-.btn-github:hover {
+.btn-view:hover {
     background-color: #3a6ac6;
 }
 
